@@ -1,0 +1,85 @@
+body,*{
+margin: 0;
+padding: 0px;
+font-family: Reboto, sans-serif;
+}
+body{
+    background: #ff8fab;
+}
+section{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+header h1{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+header span{
+    color: #5a4656;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+}
+.formulario input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    background: #ffd8e8;
+}
+.formulario button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #ec3c68a8;
+    color: #fff;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.cartao div {
+    display: flex;
+    gap: 10px;
+}
+
+.cartao div p {
+    color: #a85467;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cartao div button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    section {
+        width: 1000px;
+        margin: 56px auto;
+        gap: 88px;
+    }
+
+    .cartao div{
+        gap: 16px;
+    }
+}
